@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: #FFD60A;
+}
+
+  ::-webkit-scrollbar { 
+    display: none; 
+    }
+
+    .styled-number-input::-webkit-inner-spin-button,
+    .styled-number-input::-webkit-outer-spin-button {
+      /* Styling for Webkit-based browsers (Chrome, Safari, etc.) */
+      -webkit-appearance: none;
+      margin: 0; /* Remove margin */
+    }
+    
+    .styled-number-input {
+      /* Additional styling for the input field */
+      
+    }
+    
