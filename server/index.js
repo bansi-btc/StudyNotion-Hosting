@@ -43,7 +43,7 @@ const { create } = require('./models/course');
 
 const dotenv=require('dotenv').config();
 
-const PORT=process.env.PORT || 4000;
+const PORT=process.env.PORT;
 
 dbConnect();
 
@@ -71,7 +71,7 @@ app.get('/', (req, res)=>{
 
 
 app.listen(PORT, ()=>{
-    console.log("App running at 4000");
+    console.log(`App running at ${PORT}`);
 })
 
 
