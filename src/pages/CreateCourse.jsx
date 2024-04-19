@@ -291,7 +291,7 @@ const CreateCourse = () => {
     formData.append("file", file);
     formData.append("name", "Himanshu");
 
-    await axios.post('http://localhost:4000/api/v1/course/createCourse', formData)
+    await axios.post('https://studynotion-hosting-11.onrender.com/api/v1/course/createCourse', formData)
     .then(res=>{})
     .catch((er)=>{console.log(er.message)});
   }
